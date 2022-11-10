@@ -61,13 +61,13 @@ export default function Intro(){
             More about me:
           </p>
           <div className="flex direction-row text-gray-600 gap-3 justify-center mt-5">
-            <a href="https://www.linkedin.com/in/ignaciocalas/">
+            <a href="https://www.linkedin.com/in/ignaciocalas/" target="_blank" rel="noreferrer noopener">
               <AiFillLinkedin className="text-4xl sm:text-6xl mx-2 hover:text-white hover:-rotate-90 duration-300" />
             </a>
-            <a href="https://github.com/Nacho-Calas">
+            <a href="https://github.com/Nacho-Calas" target="_blank" rel="noreferrer noopener">
               <AiFillGithub className="text-4xl sm:text-6xl mx-2 hover:text-white hover:-rotate-90 duration-300" />
             </a>
-            <a href="https://www.instagram.com/nachocalas1/">
+            <a href="https://www.instagram.com/nachocalas1/" target="_blank" rel="noreferrer noopener">
               <AiFillInstagram className="text-4xl mx-2 sm:text-6xl hover:text-white hover:-rotate-90 duration-300" />
             </a>
           </div>

@@ -35,8 +35,8 @@ export default function NavBar(){
             </li>
             <li>
               <a
-                href="https://drive.google.com/file/d/1uWC40YvBdySsnPM5umXS2bHfJKInLgYA/view?usp=share_link"
-                className="px-5 py-2 bg-cyan-500 text-white rounded-md"
+                href="https://drive.google.com/file/d/1uWC40YvBdySsnPM5umXS2bHfJKInLgYA/view?usp=share_link "
+                className="px-5 py-2 bg-cyan-500 text-white rounded-md" target="_blank" rel="noreferrer noopener"
               >
                 Resume
               </a>

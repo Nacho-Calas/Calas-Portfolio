@@ -60,7 +60,7 @@ export default function Projects() {
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/PECF/PECF_FRONTEND">
+                <a href="https://github.com/PECF/PECF_FRONTEND" target="_blank" rel="noreferrer noopener">
                   <button className="text-center rounded-lg px-4 py-3 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -75,12 +75,12 @@ export default function Projects() {
                 alt="pidogs"
               />
               <div className="hidden group-hover:block absolute top-[%50] left-[%50]">
-                <a href="https://www.youtube.com/watch?v=w8KzH-U6lwU">
+                <a href="https://www.youtube.com/watch?v=w8KzH-U6lwU" target="_blank" rel="noreferrer noopener">
                   <button className="text-center rounded-lg px-4 py-3 bg-white text-gray-700 font-bold text-lg mr-5">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Nacho-Calas/PI-Dogs-main/tree/master/PI-Dogs-main">
+                <a href="https://github.com/Nacho-Calas/PI-Dogs-main/tree/master/PI-Dogs-main" target="_blank" rel="noreferrer noopener">
                   <button className="text-center rounded-lg px-4 py-3 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -95,12 +95,12 @@ export default function Projects() {
                 alt="weather"
               />
               <div className="hidden group-hover:block absolute top-[%50] left-[%50]">
-                <a href="https://www.youtube.com/watch?v=3OIigkRwyjk">
+                <a href="https://www.youtube.com/watch?v=3OIigkRwyjk" target="_blank" rel="noreferrer noopener">
                   <button className="text-center rounded-lg px-4 py-3 bg-white text-gray-700 font-bold text-lg mr-5">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Nacho-Calas/Weather">
+                <a href="https://github.com/Nacho-Calas/Weather" target="_blank" rel="noreferrer noopener">
                   <button className="text-center rounded-lg px-4 py-3 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>

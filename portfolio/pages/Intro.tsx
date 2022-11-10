@@ -37,7 +37,7 @@ export default function Intro(){
             {" "}
             Full Stack Developer from{" "}
             {
-              <a className="text-[#fdfbbd]" href="https://www.soyhenry.com/">
+              <a className="text-[#fdfbbd]" href="https://www.soyhenry.com/" target="_blank" rel="noreferrer noopener">
                 Henry.
               </a>
             }

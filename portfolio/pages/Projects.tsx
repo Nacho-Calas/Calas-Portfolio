@@ -6,7 +6,7 @@ import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-export const Projects = () => {
+export default function Projects() {
   const { ref, inView } = useInView();
   const animation = useAnimation();
 

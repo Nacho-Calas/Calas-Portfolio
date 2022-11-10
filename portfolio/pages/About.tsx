@@ -3,7 +3,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 
-export const About = () => {
+export default function About() {
   const { ref, inView } = useInView();
   const animation = useAnimation();
 

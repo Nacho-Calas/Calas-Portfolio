@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-export const Intro = () => {
+export default function Intro(){
   const { ref, inView } = useInView();
   const animation = useAnimation();
 

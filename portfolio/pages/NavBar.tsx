@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { FaBars, FaTimes } from "react-icons/fa";
 
-export const NavBar = () => {
+export default function NavBar(){
 
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);

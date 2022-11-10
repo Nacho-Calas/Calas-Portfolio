@@ -9,7 +9,7 @@ import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-export const Skills = () => {
+export default function Skills(){
   const { ref, inView } = useInView();
   const animation = useAnimation();
 

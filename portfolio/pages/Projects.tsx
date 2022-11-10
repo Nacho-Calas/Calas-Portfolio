@@ -1,6 +1,6 @@
 import Image from "next/image";
 import kalu from "../public/Kalu2.png";
-import PIDOGS from "../public/PIDOGS.jpg";
+import PIDOGS from "../public/pidogs.jpg";
 import weather from "../public/Weather.jpg";
 import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";

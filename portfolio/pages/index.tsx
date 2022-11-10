@@ -4,7 +4,6 @@ import { About } from './About';
 import { Intro } from './Intro';
 import { Projects } from './Projects';
 import { Skills } from './Skills';
-//import { Contact } from './Contact';
 //import { Footer } from './Footer';
 import Contact from './Contact';
 

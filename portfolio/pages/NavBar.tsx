@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { BsFillMoonStarsFill } from "react-icons/bs";
+/* import { BsFillMoonStarsFill } from "react-icons/bs"; */
 import { FaBars, FaTimes } from "react-icons/fa";
 
 export default function NavBar(){
@@ -79,14 +79,7 @@ export default function NavBar(){
               </a>
             </li>
           </ul>
-
-
-
-
-
-
-
       </nav>
     </section>
   );
-};
+}

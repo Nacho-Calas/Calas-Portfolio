@@ -23,7 +23,6 @@ export default function Projects() {
       });
     }
     if (!inView) {
-      ;
       animation.start({
         x: "-100vw",
       });
@@ -112,4 +111,4 @@ export default function Projects() {
       </div>
     </div>
   );
-};
+}

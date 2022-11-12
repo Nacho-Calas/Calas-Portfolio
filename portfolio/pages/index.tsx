@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import React from 'react';
 import NavBar from './NavBar';
 import About from './About';
 import Intro from './Intro';
@@ -10,6 +10,7 @@ import Contact from './Contact';
 
 export default function Home() {
   return (
+
     <>
       <NavBar/>
       <Intro/>

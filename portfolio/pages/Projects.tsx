@@ -54,7 +54,7 @@ export default function Projects() {
                 alt="kalo"
               />
               <div className="hidden group-hover:block absolute top-[%50] left-[%50]">
-                <a href="https://pecf.vercel.app/">
+                <a href="https://pecf.vercel.app/" target="_blank" rel="noreferrer noopener">
                   <button className="text-center rounded-lg px-4 py-3 bg-white text-gray-700 font-bold text-lg mr-5">
                     Demo
                   </button>

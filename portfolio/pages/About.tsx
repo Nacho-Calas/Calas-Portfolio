@@ -13,8 +13,8 @@ export default function About() {
         x: 0,
         transition: {
           type: "spring",
-          duration: 1.5,
-          bounce: 0.25,
+          duration: 2.7,
+          
         },
       });
     }

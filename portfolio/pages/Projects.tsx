@@ -17,7 +17,7 @@ export default function Projects() {
         x: 0,
         transition: {
           type: "spring",
-          duration: 1.5,
+          duration: 2.7,
           bounce: 0.25,
         },
       });
@@ -51,15 +51,15 @@ export default function Projects() {
               <Image
                 className="opacity-100 group-hover:opacity-30 rounded-xl"
                 src={kalu}
-                alt="kalu"
+                alt="kalo"
               />
               <div className="hidden group-hover:block absolute top-[%50] left-[%50]">
-                <a onClick={() => alert("Demo not deployed yet, i'm sorry")}>
+                <a href="https://pecf.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 bg-white text-gray-700 font-bold text-lg mr-5">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/PECF/PECF_FRONTEND" target="_blank" rel="noreferrer noopener">
+                <a onClick={() => alert("Code is private, i'm sorry")} target="_blank" rel="noreferrer noopener">
                   <button className="text-center rounded-lg px-4 py-3 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>

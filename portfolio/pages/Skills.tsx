@@ -19,7 +19,7 @@ export default function Skills(){
         x: 0,
         transition: {
           type: "spring",
-          duration: 1.5,
+          duration: 2.7,
           bounce: 0.25,
         },
       });

@@ -72,7 +72,7 @@ export default function NavBar(){
             </li>
             <li onClick={handleClick} className="py-9">
               <a
-                href="https://drive.google.com/file/d/1uWC40YvBdySsnPM5umXS2bHfJKInLgYA/view?usp=share_link"
+                href="https://drive.google.com/drive/folders/103QD-cb3ygdnxywDxIEK9OQbFsLa4Z3t"
                 className="px-5 bg-cyan-500 text-white rounded-md py-5 text-4xl"
               >
                 Resume

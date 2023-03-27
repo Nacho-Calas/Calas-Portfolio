@@ -1,13 +1,13 @@
+import { motion, useAnimation } from "framer-motion";
 import Image from "next/image";
-import javascript from "../public/javascript.png";
+import { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
+import css from "../public/css.png";
+import html5 from "../public/html5.png";
 import mongodb from "../public/Mongodb.png";
 import node from "../public/nodejs.png";
 import react from "../public/react.png";
-import css from "../public/css.png";
-import html5 from "../public/html5.png";
-import React, { useEffect } from "react";
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+import typescript from "../public/typescript.png";
 
 export default function Skills(){
   const { ref, inView } = useInView();
@@ -60,10 +60,10 @@ export default function Skills(){
             <div className="shadow-md shadow-black hover:scale-110 duration-500 rounded-xl">
               <Image
                 className="w-20 h-20 mx-auto"
-                src={javascript}
-                alt="javascript"
+                src={typescript}
+                alt="typescript"
               />
-              <p className="my-4">JavaScript</p>
+              <p className="my-4">TypeScript</p>
             </div>
             <div className="shadow-md shadow-black hover:scale-110 duration-500 rounded-xl">
               <Image className="w-20 h-20 mx-auto" src={react} alt="react" />

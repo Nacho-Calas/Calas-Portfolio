@@ -45,7 +45,7 @@ export default function Intro(){
           <p className=" text-xl sm:text-2xl leading-8 py-3 text-[#ccd6f6]">
             I am passionate about learning new technologies and I am always
             looking for new challenges. I am currently looking for a job as a
-            Jr. Full Stack Developer. I&apos;m ready to work with you!
+            Full Stack Developer. I&apos;m ready to work with you!
           </p>
 
           {/* </div> */}

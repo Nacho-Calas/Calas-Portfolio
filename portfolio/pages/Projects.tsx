@@ -2,6 +2,7 @@ import Image from "next/image";
 import kalu from "../public/Kalu2.png";
 import PIDOGS from "../public/pidogs.jpg";
 import weather from "../public/Weather.jpg";
+import coingueko from "../public/coingueko.jpg";
 import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -28,6 +29,7 @@ export default function Projects() {
       });
     }
   }, [inView, animation]);
+
   return (
     <div ref={ref} id="project" className="w-full h-screen bg-[#ccd6f6] text-[#0a192f]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
@@ -46,7 +48,29 @@ export default function Projects() {
 
           {/* Grid  */}
           <div className="grid sm:grid-cols-2 md-cols-3 gap-4">
-            {/* Project 1 */}
+
+             {/* Project 1 */}
+             <div className="relative flex items-center justify-center h-auto w-full shadow-lg shadow-[#77809a] rounded-md group hover:bg-gradient-to-r from-[#1266bb7c] to-[#51ceb570]">
+              <Image
+                className="opacity-100 group-hover:opacity-30 rounded-xl"
+                src={coingueko}
+                alt="coingueko"
+              />
+              <div className="hidden group-hover:block absolute top-[%50] left-[%50]">
+                <a href="https://coinguekoprueba-nacho-calas.vercel.app/" target="_blank" rel="noreferrer noopener">
+                  <button className="text-center rounded-lg px-4 py-3 bg-white text-gray-700 font-bold text-lg mr-5">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/Nacho-Calas/coinguecko-project" target="_blank" rel="noreferrer noopener">
+                  <button className="text-center rounded-lg px-4 py-3 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+
+            {/* Project 2 */}
             <div className="relative flex items-center justify-center h-auto w-full shadow-lg shadow-[#77809a] rounded-md group hover:bg-gradient-to-r from-[#1266bb7c] to-[#51ceb570]">
               <Image
                 className="opacity-100 group-hover:opacity-30 rounded-xl"
@@ -66,7 +90,8 @@ export default function Projects() {
                 </a>
               </div>
             </div>
-            {/* Project 2 */}
+
+            {/* Project 3 */}
             <div className="relative flex items-center justify-center h-auto w-full shadow-lg shadow-[#77809a] rounded-md group hover:bg-gradient-to-r from-[#1266bb7c] to-[#51ceb570]">
               <Image
                 className="opacity-100 group-hover:opacity-30 rounded-xl"
@@ -86,7 +111,8 @@ export default function Projects() {
                 </a>
               </div>
             </div>
-            {/* Project 3 */}
+
+            {/* Project 4 */}
             <div className="relative flex items-center justify-center h-auto w-full shadow-lg shadow-[#77809a] rounded-md group hover:bg-gradient-to-r from-[#1266bb7c] to-[#51ceb570]">
               <Image
                 className="opacity-100 group-hover:opacity-30 rounded-xl"
@@ -106,6 +132,8 @@ export default function Projects() {
                 </a>
               </div>
             </div>
+
+           
           </div>
         </motion.div>
       </div>

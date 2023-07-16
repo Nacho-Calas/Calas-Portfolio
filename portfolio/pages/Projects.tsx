@@ -2,7 +2,7 @@ import Image from "next/image";
 import kalu from "../public/Kalu2.png";
 import PIDOGS from "../public/pidogs.jpg";
 import weather from "../public/Weather.jpg";
-import coingueko from "../public/coingueko.jpg";
+import coingueko from "../public/coingueko.png";
 import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
